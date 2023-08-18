@@ -12,11 +12,6 @@ h1,h2,h3,h4,h5,h6 {
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 500;
-    color: palegreen;
-}
-
-h1 {
-    outline-color: burlywood;
 }
 
 .container li {
@@ -81,4 +76,12 @@ button {
     background-color: tan;
     border-radius: 15px;
     border: none;
+}
+
+button::hover,button::focus {
+    outline: none;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+    transform: scale(1.2);
+
 }
